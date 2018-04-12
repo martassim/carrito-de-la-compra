@@ -1,0 +1,85 @@
+<div class="jumbotron">
+  <div class="container">
+    <h1 class="display-3">Agregar tours</h1>
+    
+      Para acceder a esta seccion es necesario tener permisos 
+      <hr>
+      <div *ngIf="!(authService.user | async)">
+       
+        Usuario de prueba, USER: marta@gmail CONTRASEÑA:123456789
+      
+      </div>
+      <div *ngIf="(authService.user | async)">
+        
+         Ahora es posible insertar nuevos tours
+       
+       </div>
+    
+    
+  </div>
+</div>
+
+<div class="container">
+  <div class="container">
+    <div class="row">
+      <div class="col-1"></div>
+      <div class="col-9">
+        
+
+<div *ngIf="authService.user | async">
+<form  (ngSubmit)="saveForm()" #formForm="ngForm">
+
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="basic-addon1">Titulo</span>
+  </div>
+  <input [(ngModel)]="viaje.titulo" type="text" class="form-control" placeholder="Titulo" aria-label="Titulo" aria-describedby="basic-addon1">
+</div>
+
+<div class="input-group">
+  <div class="input-group-prepend">
+    <span class="input-group-text">Descripcion</span>
+  </div>
+  <textarea [(ngModel)]="viaje.description" class="form-control" aria-label="With textarea"></textarea>
+</div><br><br>
+
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="basic-addon3">URL de la imagen</span>
+  </div>
+  <input [(ngModel)]="viaje.imagen" type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+</div>
+
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text">Precio</span>
+  </div>
+  <input [(ngModel)]="viaje.precio" type="number" class="form-control">
+</div>
+
+<input type="submit" class="btn btn-success" value="Enviar">
+
+</form>
+</div>
+
+<div *ngIf="!(authService.user | async)">
+  <input type="text" [(ngModel)]="email" placeholder="email">
+  <input type="password" [(ngModel)]="password" placeholder="email">
+
+  <button (click)="signup()" [disabled]="!email || !password">
+    Signup
+  </button>
+
+  <button (click)="login()" [disabled]="!email || !password">
+    Login
+  </button>
+</div>
+
+<hr>
+<button (click)="logout()" *ngIf="authService.user | async">
+  Logout
+</button>
+
+</div>
+<div class="col-1"></div>
+</div>

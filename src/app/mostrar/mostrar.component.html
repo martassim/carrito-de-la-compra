@@ -1,0 +1,39 @@
+<div class="jumbotron">
+    <div class="container">
+      <h1 class="display-3">web de viajes</h1>
+      
+       web de viajes realizada con angular, incluye rutas, filtrado por id; <br>
+        mobile-friendly, con lectura y escritura en base de datos y autenticacion
+<br>
+        <a href="https://github.com/martassim/turismo-angular">código en github  <i class="fa fa-github"></i></a>
+
+      
+    </div>
+  </div>
+
+
+  <br>
+  <br>
+
+  <div class="container"> 
+      <div class="row"> 
+        <div class="col-md-4" *ngFor="let viaje of viajesObservable | async">
+          <div class="card mb-4 box-shadow"  >
+            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;" src="{{viaje.imagen}}" data-holder-rendered="true">
+            <div class="card-body">
+              <h5 class="card-title">{{viaje.titulo}}</h5>
+              <p class="card-text">{{viaje.description}}</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a [routerLink]="[ '/detalles', viaje.id ]" class="btn btn-primary">Ver detalles</a>
+               
+                </div>
+                <small class="text-muted">{{viaje.precio}}€</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        
+      
+    </div>

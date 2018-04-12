@@ -1,0 +1,14 @@
+.viajesCard{
+    margin: 7%;
+    padding:0 !important;
+}
+.imgCard{
+    width: 100%;
+    
+}
+.jumbotron{
+    color:white;
+    background-image: url(assets/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

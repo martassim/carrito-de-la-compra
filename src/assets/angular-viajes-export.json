@@ -1,0 +1,37 @@
+{
+  "viajes" : {
+    "barcelona" : {
+      "banner" : "https://www.spirent.com/-/media/Images/Presskit/Barcelona.png?h=300&la=en&w=1400&hash=E41F7A7E5FE8BB7E9A7061E8AFC8D8466A629A14",
+      "categoria" : "ciudad",
+      "description" : "viaje a Barcelona",
+      "id" : "3",
+      "imagen" : "https://princessdine22.files.wordpress.com/2013/06/sagrada.jpeg",
+      "mapa" : "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d26881.29153101687!2d2.152155817380751!3d41.38356781020408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sbarcelona!5e0!3m2!1ses!2ses!4v1521030060216",
+      "precio" : "30",
+      "texto" : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.  In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.  Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,",
+      "titulo" : "Barcelona"
+    },
+    "granada" : {
+      "banner" : "https://wikitravel.org/upload/shared//3/3b/Granada_Spain_banner.jpg",
+      "categoria" : "ciudad",
+      "description" : "viaje a granada",
+      "id" : "1",
+      "imagen" : "http://azmarra.com/wp-content/uploads/%D0%9A%D0%BE%D1%81%D1%82%D0%B0-%D0%B4%D0%B5-%D0%90%D0%BB%D0%BC%D0%B5%D1%80%D0%B8%D1%8F.jpg",
+      "mapa" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50860.99028773388!2d-3.6262910799519195!3d37.180941097097794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd71fce62d32c27d%3A0x9258f79dd3600d72!2sGranada!5e0!3m2!1ses!2ses!4v1521030246483",
+      "precio" : "10",
+      "texto" : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.  In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.  Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,",
+      "titulo" : "Granada"
+    },
+    "valencia" : {
+      "banner" : "http://blablaocio.com/wp-content/uploads/sites/7/2017/01/Valencia_Banner.jpg",
+      "categoria" : "playa",
+      "description" : "viaje a valencia",
+      "id" : "2",
+      "imagen" : "https://lomejordevalencia.com/images/guia/valencia-fallas-monumentos.jpg",
+      "mapa" : "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41445.65474607255!2d-0.3820388946313036!3d39.45878373564974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f4cf0efb06f%3A0xb4a351011f7f1d39!2sValencia!5e0!3m2!1ses!2ses!4v1521030313970",
+      "precio" : "20",
+      "texto" : "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.  In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.  Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,",
+      "titulo" : "Valencia"
+    }
+  }
+}
