@@ -1,4 +1,8 @@
+# enlace al proyecto
+https://angular-viajes.firebaseapp.com/mostrar
 # AngularViajes
+
+Proyecto de Angular5, incluye conexion a base de datos, rutas, observables, filtrado por id y conexion a base de datos, además de un carrito de la compra, que permite añadir, eliminar y editar productos
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
 
